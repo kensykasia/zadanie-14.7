@@ -15,3 +15,6 @@ var Contact = React.createClass({
         <a className= {'contactEmail'} href= {'mailto: ' + this.props.item.email}> {this.props.item.email}
         </a>
       </div>
+    )
+  },
+});
